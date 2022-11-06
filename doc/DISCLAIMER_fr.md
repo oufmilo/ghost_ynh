@@ -1,3 +1,8 @@
+## Version 5.20 seulement
+
+:warning: A cause d'une incompatibilité avec MariaDB dans les versions suivantes, la dernière version du *package* Ghost disponible inclut la version 5.20.
+(cf. https://github.com/YunoHost-Apps/ghost_ynh/issues/199)
+
 ## Installation
 
  1. Pas de prise en charge LDAP.
