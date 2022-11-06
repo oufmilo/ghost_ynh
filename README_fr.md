@@ -25,6 +25,11 @@ Plateforme d'édition, d'adhésions, d'abonnements et de newsletters
 
 ## Avertissements / informations importantes
 
+## Version 5.20 seulement
+
+:warning: A cause d'une incompatibilité avec MariaDB dans les versions suivantes, la dernière version du *package* Ghost disponible inclut la version 5.20.
+(cf. https://github.com/YunoHost-Apps/ghost_ynh/issues/199)
+
 ## Installation
 
  1. Pas de prise en charge LDAP.
@@ -46,6 +51,7 @@ Plateforme d'édition, d'adhésions, d'abonnements et de newsletters
          `sudo yunohost installer l'application https://github.com/YunoHost-Apps/ghost_ynh`
 
  2. Après l'installation, créez un **compte administrateur** en visitant `https://domain.tld/ghost/ghost`. Si vous choisissez de nommer votre instance Ghost "blog" pendant le processus d'installation de YunoHost, alors ce sera "https://domain.tld/blog/ghost". Cela vous permettra de continuer à configurer votre compte administrateur et à configurer vos paramètres. 
+
 ## Documentations et ressources
 
 * Site officiel de l'app : <https://ghost.org/>
